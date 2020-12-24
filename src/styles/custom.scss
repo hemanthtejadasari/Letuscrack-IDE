@@ -1,0 +1,28 @@
+/* make the customizations */
+// $body-bg: rgb(230, 233, 238);
+$body-bg: rgb(35, 35, 35);
+$secondary: rgba($body-bg, .75);
+$dark: rgb(50, 50, 50);
+$enable-shadows: true;
+
+/* import bootstrap to set changes */
+// @import "~bootstrap/scss/bootstrap";
+// Required
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+
+// Optional
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/images";
+@import "~bootstrap/scss/code";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/nav";
+@import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/dropdown";
+@import "~bootstrap/scss/card";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/code";
+@import "~bootstrap/scss/utilities";
