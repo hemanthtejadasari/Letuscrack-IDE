@@ -7,11 +7,13 @@ Thanks for Judge0 for providing API
 ## Author
 Letuscrack IDE was created and is maintained by [Hemanth Teja Dasari](https://github.com/hemanthtejadasari) for letuscrack.com website.
 
-## getting started
+## Dev
 
-install dependencies and start local dev server
+### Install dependencies
 
-```sh
-npm install
-npm start
-```
+`npm install`
+
+### Build
+
+`npm run build`
+
